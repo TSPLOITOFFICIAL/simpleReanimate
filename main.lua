@@ -23,7 +23,7 @@ for i,v in pairs(descendants) do
     end
 end
 
-local rig = game:GetObjects("rbxassetid://5195737219")[1] -- dummy model
+local rig = game:GetObjects("rbxassetid://11984665448")[1] -- dummy model
 rig.Parent = char
 rig.Name = "Dummy"
 
