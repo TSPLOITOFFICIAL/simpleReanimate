@@ -7,7 +7,8 @@ local hum = char:FindFirstChildOfClass("Humanoid")
 local children = char:GetChildren()
 local descendants = char:GetDescendants()
 
-char.Animate.Disabled = true
+char.Animate.Disabled = false
+
 
 if hum.RigType == Enum.HumanoidRigType.R6 then
     R6 = true
